@@ -13,9 +13,21 @@
 	}
 }
 
+////////////////////////////////
+// General styles
+////////////////////////////////
+
 body {
 	font-family: "Noto Sans", sans-serif;
 }
+
+.rsvp-form {
+	height: 1300px;
+}
+
+////////////////////////////////
+// Navigation
+////////////////////////////////
 
 #nav-top {
 	ul {
@@ -28,14 +40,24 @@ body {
 		margin: 0;
 		font-weight: 700;
 	}
+
+	li.active {
+		background-color: #999;
+	}
 	
 	a {
+		color: #333;
 		text-decoration: none;
 		display: inline-block;
 		padding: 10px;
 	}
+	
 	a:hover {
 		background-color: #ccc;
+	}
+
+	a:visited {
+		color: #333;
 	}
 }
 
