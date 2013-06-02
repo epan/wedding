@@ -1,0 +1,42 @@
+.clearfix {
+	&:last-of-type {
+		border-bottom: none;
+	}
+
+	&:before,&:after {
+		display: table;
+		content: "";
+		line-height: 0;
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+body {
+	font-family: "Noto Sans", sans-serif;
+}
+
+#nav-top {
+	ul {
+		margin: 0 auto;
+	}
+	
+	li {
+		list-style: none;
+		float: left;
+		margin: 0;
+		font-weight: 700;
+	}
+	
+	a {
+		text-decoration: none;
+		display: inline-block;
+		padding: 10px;
+	}
+	a:hover {
+		background-color: #ccc;
+	}
+}
+
+
